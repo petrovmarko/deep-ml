@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:00:07.240Z",
+  "generated_at": "2026-09-20T10:00:08.696Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -182,6 +182,32 @@
       "last_pushed_at": "2026-09-13T23:29:03.034Z",
       "language": "python",
       "lines": 5
+    },
+    "problem:39": {
+      "kind": "problem",
+      "id": "39",
+      "title": "Implementation of Log Softmax Function",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/39",
+      "path": "problems/0039-implementation-of-log-softmax-function",
+      "first_solved_at": "2026-09-19T19:06:05.543Z",
+      "last_pushed_at": "2026-09-19T19:06:05.543Z",
+      "language": "python",
+      "lines": 7
+    },
+    "problem:30": {
+      "kind": "problem",
+      "id": "30",
+      "title": "Batch Iterator for Dataset",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/30",
+      "path": "problems/0030-batch-iterator-for-dataset",
+      "first_solved_at": "2026-09-19T19:26:13.333Z",
+      "last_pushed_at": "2026-09-19T19:26:13.333Z",
+      "language": "python",
+      "lines": 16
     }
   }
 }
