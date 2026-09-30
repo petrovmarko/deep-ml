@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:29:32.220Z",
+  "generated_at": "2026-09-30T21:30:03.101Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -535,7 +535,7 @@
       "url": "https://www.deep-ml.com/problems/217",
       "path": "problems/0217-derivatives-of-activation-functions",
       "first_solved_at": "2026-09-30T21:29:31.600Z",
-      "last_pushed_at": "2026-09-30T21:29:31.600Z",
+      "last_pushed_at": "2026-09-30T21:30:02.527Z",
       "language": "python",
       "lines": 15
     }

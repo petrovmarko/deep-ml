@@ -12,4 +12,4 @@ def activation_derivatives(x: float) -> dict[str, float]:
 	# Your code here
 	def sigmoid(x):
 		return 1 / (1 + np.exp(x))
-	return {"sigmoid" : float(sigmoid(x) * (1 - sigmoid(x))), "tanh" : float(1 - np.tanh(x) ** 2), "relu": (x >= 0)}
+	return {"sigmoid" : float(sigmoid(x) * (1 - sigmoid(x))), "tanh" : float(1 - np.tanh(x) ** 2), "relu": (x > 0)}
