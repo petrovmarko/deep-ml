@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:38:09.938Z",
+  "generated_at": "2026-10-03T13:15:06.530Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -729,6 +729,19 @@
       "path": "math/0004-backpropagation-and-the-chain-rule",
       "first_solved_at": "2026-10-02T22:38:09.281Z",
       "last_pushed_at": "2026-10-02T22:38:09.281Z"
+    },
+    "problem:53": {
+      "kind": "problem",
+      "id": "53",
+      "title": "Implement Self-Attention Mechanism",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/53",
+      "path": "problems/0053-implement-self-attention-mechanism",
+      "first_solved_at": "2026-10-03T13:15:05.867Z",
+      "last_pushed_at": "2026-10-03T13:15:05.867Z",
+      "language": "python",
+      "lines": 24
     }
   }
 }
