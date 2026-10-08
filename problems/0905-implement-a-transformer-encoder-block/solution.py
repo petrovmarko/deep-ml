@@ -15,6 +15,6 @@ class TransformerBlock(nn.Module):
 
     def forward(self, x):
         # TODO: pre-LN attention sublayer, then pre-LN MLP sublayer, both with residual
-        x = self.dropout(self.attn(self.norm1(x), self.norm1(x), self.norm1(x))[0]) + x
-        out = x + self.dropout(self.mlp(self.norm2(x)))
+        X = self.dropout(self.attn(self.norm1(x), self.norm1(x), self.norm1(x))[0]) + x
+        out = x + self.dropout(self.mlp(self.norm2(X)))
         return out
