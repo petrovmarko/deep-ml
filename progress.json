@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:26:08.187Z",
+  "generated_at": "2026-10-08T17:11:24.663Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -844,6 +844,19 @@
       "path": "problems/0113-implement-a-simple-residual-block-with-shortcut-connection",
       "first_solved_at": "2026-10-08T16:26:07.429Z",
       "last_pushed_at": "2026-10-08T16:26:07.429Z",
+      "language": "python",
+      "lines": 15
+    },
+    "problem:114": {
+      "kind": "problem",
+      "id": "114",
+      "title": "Implement Global Average Pooling",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/114",
+      "path": "problems/0114-implement-global-average-pooling",
+      "first_solved_at": "2026-10-08T17:11:24.012Z",
+      "last_pushed_at": "2026-10-08T17:11:24.012Z",
       "language": "python",
       "lines": 15
     }
