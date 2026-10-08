@@ -11,7 +11,6 @@ class TransformerBlock(nn.Module):
         self.mlp = nn.Sequential(
             nn.Linear(d_model, d_ff), nn.GELU(), nn.Linear(d_ff, d_model)
         )
-        self.Wq = nn
         self.dropout = nn.Dropout(dropout)
 
     def forward(self, x):
