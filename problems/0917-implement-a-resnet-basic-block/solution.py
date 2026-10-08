@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-
+torch.backends.nnpack.set_flags(False)
 class ResidualBlock(nn.Module):
     def __init__(self, in_channels: int, out_channels: int, stride: int = 1):
         super().__init__()
@@ -12,7 +12,7 @@ class ResidualBlock(nn.Module):
         if in_channels == out_channels and stride==1:
             self.shortcut = nn.Identity()
         else:
-            self.shortcut = nn.Sequential(nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=1, bias=False), nn.BatchNorm2d(out_channels))
+            self.shortcut = nn.Sequential(nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=stride, bias=False), nn.BatchNorm2d(out_channels))
         pass
 
     def forward(self, x):
@@ -20,4 +20,4 @@ class ResidualBlock(nn.Module):
         out = torch.relu(self.bn1(self.conv1(x)))
         out = self.bn2(self.conv2(out))
         out = out + self.shortcut(x)
-        return out
+        return torch.relu(out)
